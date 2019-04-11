@@ -2,12 +2,12 @@
 
 /// 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
 
-/// ## Example:
-/// ### example1
+/// ## Examples:
+/// ### Example 1
 /// 给定 nums = [2, 7, 11, 15], target = 9
 /// 因为 nums[0] + nums[1] = 2 + 7 = 9
 /// 所以返回 [0, 1]
-/// ```
+/// ```rust
 /// # use leetcode_SAO::problems::problem1::two_sum;
 /// #
 /// assert_eq!(two_sum(vec![2, 7, 11, 15], 9), vec![0, 1]);
@@ -28,7 +28,3 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     return vec![];
 }
 
-#[test]
-fn sum_between_two_numbers() {
-    assert_eq!(two_sum(vec![2, 7, 11, 15], 9), vec![0, 1]);
-}
