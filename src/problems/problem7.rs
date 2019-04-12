@@ -34,7 +34,7 @@ pub fn reverse(x: i32) -> i32 {
                 return 0;
             } else {
                 result = result * 10 + i;
-                x = x / 10;
+                x /= 10;
             }
         }
 
@@ -46,7 +46,7 @@ pub fn reverse(x: i32) -> i32 {
                 return 0;
             } else {
                 result = result * 10 + i;
-                x = x / 10;
+                x /= 10;
             }
         }
 
